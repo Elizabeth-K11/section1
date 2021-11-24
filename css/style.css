@@ -1,0 +1,153 @@
+.html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-family: 'Orelega One', cursive;
+    background-image: url("../img/fon.jpg");
+background-repeat: no-repeat;
+position: fixed;
+    }
+        
+        
+
+
+.menu{
+display: flex;
+margin-left: 10%;
+overflow: hidden;
+position: fixed;
+top: 0;
+width: 100%;
+}
+
+.menu a{
+color: white;
+margin-left: 75px;
+text-decoration: none;
+font-size: 30px;
+font-family: Arial;
+font-weight:bold;
+padding-top:80px ;
+padding-left: 7px;
+padding-right: 7px;
+}
+
+.menu a:hover{
+color:rgb(179, 179, 179);
+    }
+
+
+
+.title{
+font-size: 48px;
+font-family: 'Petemoss', cursive;
+display: flex;
+justify-content:center ;
+margin-top: 8%;
+margin-bottom: 2%;
+}
+
+.container{
+
+width: 80%;
+height: 1000px;
+margin: 0 auto;
+background-color: rgba(139, 139, 139, 0.226);
+box-shadow: 9px 15px 8px 7px rgba(0, 0, 0, 0.28);
+}
+
+
+.main_title{
+font-family: 'Raleway', sans-serif;
+font-size: 72px;
+text-align: center;
+width: 40%;
+padding-top: 50PX;
+}
+
+.subtitle{
+    font-size: 48px;
+    font-family: 'Petemoss', cursive;
+    width: 40%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+
+}
+
+.text{
+
+    font-family: Arial;
+    padding-top: 1%;
+    padding-left:3%; 
+    font-size: 25px;
+    width: 40%;
+}
+
+.knopka .btn{
+    background-color:#bc2222;
+    display: inline-block;
+    vertical-align: top;
+    padding: 7px 7px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-family: Arial;
+    font-size:18px;
+    text-decoration:none;
+    box-align: center;
+    transition:  .2s linear;
+    margin-bottom: 5%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    box-shadow: 3px 5px 8px 7px rgba(0, 0, 0, 0.28);
+}
+
+.btn:hover {
+    background-color:#9c1f1f;
+}
+
+.knopka{
+margin-top: 3%;
+display: flex;
+width: 40%;
+justify-content: center;
+}
+
+@media (max-width:1330px){
+    .main_title {
+        width: 50%;
+        font-size:60px;}  
+    .subtitle{
+        width: 50%;
+        font-size:46px ;}
+    .text{width: 50%;
+        font-size:25px ;}
+        .title{
+        margin-top: 10%;
+        }
+        .menu a{
+            
+            font-size: 25px;
+
+}
+
+@media (max-width:1113px){
+    .main_title {
+        width: 50%;
+        font-size:50px;}  
+    .subtitle{
+        width: 50%;
+        font-size:40px ;}
+    .text{width: 50%;
+        font-size:20px ;}
+        .title{
+        margin-top: 15%;
+        }
+        .menu a{
+            
+            font-size: 25px;
+
+}
